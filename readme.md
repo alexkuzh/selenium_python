@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/aikrasnov/python-selenium.svg?branch=master)](https://travis-ci.org/aikrasnov/python-selenium)
+[![Build Status](https://travis-ci.com/alexkuzh/selenium_python.svg?branch=master)](https://travis-ci.com/alexkuzh/selenium_python)
 ## Как запустить тесты
 ### Локально
 0) Установить firefox, chrome и положить их драйвера в PATH ([chromedriver](http://chromedriver.chromium.org/), [geckodriver](https://github.com/mozilla/geckodriver/releases))
@@ -6,7 +6,7 @@
 2) Установить pipenv ([инструкция](https://github.com/pypa/pipenv#installation))
 3) Запустить `pipenv install --dev && pipenv run pytest`
 
-### В Sauce Lab 
+### В Sauce Lab
 1) Выполнить все те же шаги (кроме драйверов в PATH)
 2) Установить переменные окружения SAUCE_USERNAME and SAUCE_ACCESS_KEY
 3) Запустить тесты
